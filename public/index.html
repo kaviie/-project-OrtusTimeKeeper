@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<!-- COMMENTS 
+Creator == kavÜ
+-->   
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ortus TimeKeeper</title>
+  <!-- STYLES -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="marquee">
+        <div class="container">
+          <div class="pic-container">
+            <div class="pic">
+              <img src="/imgs/quetzalcoatl/quetzalcoatl.1.jpeg">
+            </div>
+            <div class="pic">
+              <img src="/imgs/quetzalcoatl/quetzalcoatl.2.jpeg">
+            </div>
+            <div class="pic">
+              <img src="/imgs/quetzalcoatl/quetzalcoatl.3.jpeg">
+            </div>
+            <div class="pic">
+              <img src="/imgs/quetzalcoatl/quetzalcoatl.4.jpeg">
+            </div>
+            <div class="pic">
+              <img src="/imgs/quetzalcoatl/quetzalcoatl.5.jpeg">
+            </div>
+            <div class="pic">
+              <img src="/imgs/quetzalcoatl/quetzalcoatl.6.jpeg">
+            </div>
+            <div class="pic">
+              <img src="/imgs/quetzalcoatl/quetzalcoatl.7.jpeg">
+            </div>
+            <div class="pic">
+              <img src="/imgs/quetzalcoatl/quetzalcoatl.8.jpeg">
+            </div>
+            <div class="pic">
+              <img src="/imgs/quetzalcoatl/quetzalcoatl.9.jpeg">
+            </div>
+            <div class="pic">
+              <img src="./imgs/quetzalcoatl/quetzalcoatl.10.jpeg">
+            </div>
+            <div class="pic">
+              <img src="/imgs/quetzalcoatl/quetzalcoatl.11.jpeg">
+            </div>
+            <div class="pic">
+              <img src="/imgs/quetzalcoatl/quetzalcoatl.12.jpeg">
+            </div>
+            <div class="pic">
+              <img src="/imgs/quetzalcoatl/quetzalcoatl.13.jpeg">
+            </div>
+            <div class="pic">
+              <img src="/imgs/quetzalcoatl/quetzalcoatl.14.jpeg">
+            </div>
+            <div class="pic">
+              <img src="/imgs/quetzalcoatl/quetzalcoatl.15.jpeg">
+            </div>
+            <div class="pic">
+              <img src="/imgs/quetzalcoatl/quetzalcoatl.16.jpeg">
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="marquee">
+        <div class="container">
+            VISION Marquee
+        </div>
+    </section>
+    <input class = "inputText"
+        type="text"
+        name="visionMarqueeText"
+        id="visionMarqueeText"
+        placeholder="Write Vision Marquee Text Here"
+        >
+    <label>
+        <input 
+        class="inputIMG" 
+        type="file" 
+        name="visionMarqueeIMG" 
+        accept ="image/png, image/jpeg, image/svg">
+        <input
+        class="submitIMG"
+        id="submitIMG"
+        type="submit"
+        value="Add Image"
+        >
+    </label>
+
+  <main class="app">
+    <section class="greeting">
+      <img class="image" id="liquidSunrise" src="/imgs/OzV.gif" alt="sunriseSVG">
+      <img class="image" id="solarClockwork" src="/imgs/planetas-sistema-solar.gif" alt="solarSystemSVG">
+      <img class="image" id="solarClockwork" src="/imgs/earth-and-sun-earth-orbeting-sun.gif" alt="solarSystemBarrelSVG">
+      <brThe class="title">Hello, <input type="text" id="name" placeholder="Name here">
+      </h2>
+    </section>
+    
+    <section id="timeClock">
+    
+      <h2 class='title'>The current dateTime is == 
+      <br><br><p id='date'></p>
+      </h2>
+    </section>
+
+    <section>
+        <h2 class="title" id="ortus">ORTUS == <span id="sunriseTime"></span></h2> 
+    </section>
+     
+    
+    <section class="create-todo">
+      <h3>TIME SLOTS</h3>
+
+      <form id="new-todo-form">
+        <datalist id="dailyActivities">
+            <option value="ProgrammingDevelopment"></option>
+            <option value="15thStFarmProject Development"></option>
+            <option value="PropagationPeriod"></option>
+            <option value="Training"></option>
+            <option value="10YearVision Development"></option>
+            <option value="LandAquisitionPlan Development"></option>
+            <option value="Study"></option>
+            <option value="ClosingRoutine"></option>
+        </datalist>
+        <h4 class = 'timeSlot' id="timeSlot0">Ortus</h4>
+        <input class = "timeBlock" id="timeBlock0"
+        type="text"
+        name="date"
+        list="dailyActivities"
+        placeholder="Write TimeBlock Focus Here"
+        >
+        <h4 class = 'timeSlot' id="timeSlot1">Ortus + 1</h4>
+        <input class = "timeBlock dayTime" id="timeBlock1"
+        type="text"
+        name="date"
+        list="dailyActivities"
+        placeholder="Write TimeBlock Focus Here"
+        >
+        <h4 class = 'timeSlot' id="timeSlot2">Ortus + 2</h4>
+        <input class = "timeBlock dayTime" id="timeBlock2"
+          type="text"
+          name="date"
+          list="dailyActivities"
+          placeholder="Write TimeBlock Focus Here"
+        >
+        <h4 class = 'timeSlot' id="timeSlot3">Ortus + 3</h4>
+        <input class = "timeBlock dayTime" id="timeBlock3"
+        type="text"
+        name="date"
+        list="dailyActivities"
+        placeholder="Write TimeBlock Focus Here"
+        >
+        <h4 class = 'timeSlot' id="timeSlot4">Ortus + 4</h4>
+        <input class = "timeBlock dayTime" id="timeBlock4"
+        type="text"
+        name="date"
+        list="dailyActivities"
+        placeholder="Write TimeBlock Focus Here"
+        >
+        <h4 class = 'timeSlot' id="timeSlot5">Ortus + 5</h4>
+        <input class = "timeBlock dayTime" id="timeBlock5"
+        type="text"
+        name="date"
+        list="dailyActivities"
+        placeholder="Write TimeBlock Focus Here"
+        >
+        <h4 class = 'timeSlot' id="timeSlot6">Ortus + 6</h4>
+        <input class = "timeBlock dayTime" id="timeBlock6"
+        type="text"
+        name="date"
+        list="dailyActivities"
+        placeholder="Write TimeBlock Focus Here"
+        >
+        <h4 class = 'timeSlot' id="timeSlot7">Ortus + 7</h4>
+        <input class = "timeBlock dayTime" id="timeBlock7"
+        type="text"
+        name="date"
+        list="dailyActivities"
+        placeholder="Write TimeBlock Focus Here"
+        >
+        <h4 class = 'timeSlot' id="timeSlot8">Ortus + 8</h4>
+        <input class = "timeBlock dayTime" id="timeBlock8"
+        type="text"
+        name="date"
+        list="dailyActivities"
+        placeholder="Write TimeBlock Focus Here"
+        >
+        <h4 class = 'timeSlot' id="timeSlot9">Ortus + 9</h4>
+        <input class = "timeBlock dayTime" id="timeBlock9"
+        type="text"
+        name="date"
+        list="dailyActivities"
+        placeholder="Write TimeBlock Focus Here"
+        >
+        <h4 class = 'timeSlot' id="timeSlot10">Ortus + 10</h4>
+        <input class = "timeBlock dayTime"  id="timeBlock10"
+        type="text"
+        name="date"
+        list="dailyActivities"
+        placeholder="Write TimeBlock Focus Here"
+        >
+        <h4 class = 'timeSlot' id="timeSlot11">Ortus + 11</h4>
+        <input class = "timeBlock" id="timeBlock11"
+        type="text"
+        name="date"
+        list="dailyActivities"
+        placeholder="Write TimeBlock Focus Here"
+        >
+        <h4 class = 'timeSlot' id="timeSlot12">Ortus + 12</h4>
+        <input class = "timeBlock" id="timeBlock12"
+        type="text"
+        name="date"
+        list="dailyActivities"
+        placeholder="Write TimeBlock Focus Here"
+        >
+        <h4 class = 'timeSlot' id="timeSlot13">Ortus + 13</h4>
+        <input class = "timeBlock" id="timeBlock13"
+        type="text"
+        name="date"
+        list="dailyActivities"
+        placeholder="Write TimeBlock Focus Here"
+        >
+        <h4 class = 'timeSlot' id="timeSlot14">Ortus + 14</h4>
+        <input class = "timeBlock" id="timeBlock14"
+        type="text"
+        name="date"
+        list="dailyActivities"
+        placeholder="Write TimeBlock Focus Here"
+        >
+        <h4 class = 'timeSlot' id="timeSlot15">Ortus + 15</h4>
+        <input class = "timeBlock" id="timeBlock15"
+        type="text"
+        name="date"
+        list="dailyActivities"
+        placeholder="Write TimeBlock Focus Here"
+        >
+        <h4 class = 'timeSlot' id="timeSlot16">Ortus + 16</h4>
+        <input class = "timeBlock" id="timeBlock16"
+        type="text"
+        name="date"
+        list="dailyActivities"
+        placeholder="Write TimeBlock Focus Here"
+        ><h4 class = 'timeSlot' id="timeSlot17">Ortus + 17</h4>
+        <input class = "timeBlock" id="timeBlock17"
+        type="text"
+        name="date"
+        list="dailyActivities"
+        placeholder="Write TimeBlock Focus Here"
+        >
+        <h4 class = 'timeSlot' id="timeSlot18">Ortus + 18</h4>
+        <input class = "timeBlock" id="timeBlock18"
+        type="text"
+        name="date"
+        list="dailyActivities"
+        placeholder="Write TimeBlock Focus Here"
+        >
+        <h4 class = 'timeSlot' id="timeSlot19">Ortus + 19</h4>
+        <input class = "timeBlock" id="timeBlock19"
+        type="text"
+        name="date"
+        list="dailyActivities"
+        placeholder="Write TimeBlock Focus Here"
+        >
+        <h4 class = 'timeSlot' id="timeSlot20">Ortus + 20</h4>
+        <input class = "timeBlock" id="timeBlock20"
+        type="text"
+        name="date"
+        list="dailyActivities"
+        placeholder="Write TimeBlock Focus Here"
+        ><h4 class = 'timeSlot' id="timeSlot21">Ortus + 21</h4>
+        <input class = "timeBlock" id="timeBlock21"
+        type="text"
+        name="date"
+        list="dailyActivities"
+        placeholder="Write TimeBlock Focus Here"
+        >
+        <h4 class = 'timeSlot' id="timeSlot22">Ortus + 22</h4>
+        <input class = "timeBlock" id="timeBlock22"
+        type="text"
+        name="date"
+        list="dailyActivities"
+        placeholder="Write TimeBlock Focus Here"
+        >
+        
+        <h4>Holding for radio bubble buttons</h4>
+        <div class="options">
+
+          <label class="options-label">
+            <input 
+              type="radio" 
+              name="category" 
+              id="category1"
+              value="business"
+            >
+            <span class="bubble business"></span>
+            <div>Business</div>
+          </label>
+
+          <label class="options-label">
+            <input 
+              type="radio" 
+              name="category" 
+              id="category2"
+              value="personal"
+            >
+            <span class="bubble personal"></span>
+            <div>Personal</div>
+          </label>
+
+        </div>
+
+        <input
+          type="submit"
+          value="Add Entry"
+        >
+
+      </form>
+    </section>
+
+  </main>
+
+  <!-- SCRIPTS -->
+    <script src="../dist/awesome.js" type="module"></script> 
+
+</body>
+</html>
+
+
+
+
