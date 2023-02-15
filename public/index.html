@@ -13,7 +13,7 @@ Creator == kavÜ
 </head>
 
 <body>
-
+<!--Top Header Marquee-->
     <section id="marquee">
         <div class="container">
           <div class="pic-container">
@@ -129,6 +129,16 @@ Creator == kavÜ
             <option value="Study"></option>
             <option value="ClosingRoutine"></option>
         </datalist>
+        <div class="inputBox">
+          <input 
+          type="text" 
+          required="required"
+          class = "timeBlock" id="timeBlock0"
+          name="date"
+          list="dailyActivities"
+          >
+          <span>Ortus</span>
+        </div>
         <h4 class = 'timeSlot' id="timeSlot0">Ortus</h4>
         <input class = "timeBlock" id="timeBlock0"
         type="text"
@@ -136,6 +146,16 @@ Creator == kavÜ
         list="dailyActivities"
         placeholder="Write TimeBlock Focus Here"
         >
+        <div class="inputBox">
+          <input 
+          type="text" 
+          required="required"
+          class = "timeBlock dayTime" id="timeBlock1"
+          name="date"
+          list="dailyActivities"
+          >
+          <span>Ortus + 1</span>
+        </div>
         <h4 class = 'timeSlot' id="timeSlot1">Ortus + 1</h4>
         <input class = "timeBlock dayTime" id="timeBlock1"
         type="text"
