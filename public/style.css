@@ -52,29 +52,29 @@
     transition: 0.5s;
 }
 .inputBox input:valid ~ span {
-    color: #00dfc4;
+    color: var(--gold);
     transform: translateX(10px) translateY(-13px);
     font-size: 0.65em;
     padding: 0 10px;
     background: var(--dark);
-    border: 1px solid #00dfc4;
+    border: 1px solid var(--gold);
     border-radius: 1em;
     letter-spacing: 0.2em;
 }
 .inputBox input:focus ~ span 
 {
-    color: #00dfc4;
+    color: var(--gold);
     transform: translateX(10px) translateY(-13px);
     font-size: 0.65em;
     padding: 0 10px;
     background: var(--dark); 
-    border: 1px solid #00dfc4;
+    border: 1px solid var(--gold);
     border-radius: 1em;
     letter-spacing: 0.2em;
 }
 .inputBox input:valid,
 .inputBox input:focus {
-    border: 1px solid #00dfc4;
+    border: 1px solid var(--gold);
 }
 /* classes */
 
@@ -139,6 +139,8 @@ img {
     border-radius: 8rem;
 }
 
+
+
 /* button elements */
 /* classes */
 
@@ -193,6 +195,7 @@ label {
     margin: 0.4rem 0;
 }
 
+
 .marquee {
     background-color: white;
     height: 40px;
@@ -228,13 +231,13 @@ label {
 .create-todo input[type="text"] {
     display: block;
     width: 100%;
-    font-size: 1.125rem;
-    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    padding: 1em 1.5em;
     color: #fff;
     background: linear-gradient(var(--dark),var(--purple)
     );
     border-radius: 2rem;
-    border: 1px solid #00dfc4; 
+    border: 1px solid var(--gold); 
     box-shadow: var(--shadow);
     margin-bottom: 1.5rem;
 }
